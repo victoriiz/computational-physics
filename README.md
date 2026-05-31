@@ -1,7 +1,6 @@
 # NS-PINN: Navier-Stokes Physics-Informed Neural Network
 
-An implementation of a **Physics-Informed Neural Network (PINN)**
-that solves the 2D incompressible Navier-Stokes equations for lid-driven cavity flow.
+An implementation of a **Physics-Informed Neural Network (PINN)** to solve the 2D incompressible Navier-Stokes equations for lid-driven cavity flow. The network learns fluid velocity and pressure fields by minimising PDE residuals computed via automatic differentiation. Implemented SIREN (sinusoidal activation) architecture for stable higher-order derivative computation through the network.
 
 ## Project Structure
 
