@@ -4,7 +4,7 @@ import time
 import torch.optim as optim
 from tqdm import tqdm
 from model import PINN
-from physics import pde_residual, b_loss, ic_loss
+from physics import ns_residuals, b_loss, ic_loss
 
 # loss weights
 LAMBDA_PDE = 1.0
