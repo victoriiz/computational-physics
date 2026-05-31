@@ -1,5 +1,5 @@
 import torch
-from nspinn_src import PINN, train, evaluate_on_grid, plot_flow_field, plot_loss_history
+from src import PINN, train, evaluate_on_grid, plot_flow_field, plot_loss_history
 
 CONFIG = {
     "Re": 100.0,            # Reynolds number. Try 100 → 400 → 1000
